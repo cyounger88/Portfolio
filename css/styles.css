@@ -28,10 +28,10 @@ body {
 .header {
     height: 95vh;
     background-image: linear-gradient(
-        to right bottom,
+        to right top,
         #7ed56f84, 
         #28b48578),
-        url("../img/cristofer-jeschke-702957-unsplash.jpg");
+        url("../img/group.JPG");
     background-size: cover;
     background-position: top;
     position: relative;
@@ -39,11 +39,13 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100% );
 }
 
+
 .logo-box {
     position: absolute;
     top: 40px;
     left:40px;
 }
+
 
 .logo {
     height: 35px;
@@ -83,6 +85,10 @@ body {
     letter-spacing: 17.4px;
 
     animation: moveInRight 1s ease-out;
+}
+
+.icons {
+    height: 35px;
 }
 
 @keyframes moveInLeft {
@@ -125,6 +131,7 @@ body {
     }
 }
 
+/*
 .btn:link,
 .btn:visited {
     text-transform: uppercase;
@@ -138,7 +145,7 @@ body {
 
 .btn:hover {
     transform: translateY(-3px);
-    /* blur with 20% shadow*/
+    /* blur with 20% shadow 
     box-shadow: 0 10px 20px rgba(0,0,0,.2);
 }
 
@@ -170,7 +177,7 @@ body {
     background-color: #fff;
 }
 
-.btn::hover::after {
+.btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
 }
@@ -180,7 +187,17 @@ body {
     animation-fill-mode: backwards;
 }
 
+*/
 
+ /* Icons */
+
+
+
+
+
+
+
+  
 
 
 
