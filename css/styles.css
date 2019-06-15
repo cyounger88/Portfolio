@@ -39,8 +39,9 @@ body {
         #7ed56f84, 
         #28b48578),
         url("../img/group.JPG");
-    background-size: cover;
+    background-size: contain;
     background-position: top;
+    background-repeat: no-repeat;
     position: relative;
     
 
